@@ -1,0 +1,88 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ html,body,.Father
+{
+    width: 100%;
+    height: 100%;
+}
+.Father
+{
+    background-color: rgb(5, 129, 102);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.Father .form-div
+{
+    flex-basis: 40%;
+}
+.Father .form-div .content
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+
+}
+.Father .form-div .lbl
+{
+    display: block;
+    font-size: 15px;
+    color: #fff;
+    flex-basis: 15%;
+    margin-right: 5px;
+    text-transform: uppercase;
+
+}
+.Father .form-div .text
+{
+    flex-basis: 80%;
+    height: 45px;
+    border: none;
+    padding: 15px;
+
+}
+.Father .form-div .textarea
+{
+    flex-basis: 80%;
+    border: none;
+    padding: 15px;
+
+}
+.Father .form-div .text , .Father .form-div .textarea ,.btton .btn 
+:focus
+{
+    outline: none;
+}
+.Father .form-div .div-Check
+{
+    flex-basis: 80%;
+}
+.Father .form-div .div-Check label
+{
+    margin-right: 35px;
+    margin-bottom: 15px;
+    display: inline-block;
+    color: #fff
+
+}
+.form-div .btton
+{
+    text-align: right;
+    
+    
+}
+.btton .btn 
+{
+    border: none;
+    background-color: #444;
+    color:#fff;
+    padding: 7px 20px;
+    
+}
